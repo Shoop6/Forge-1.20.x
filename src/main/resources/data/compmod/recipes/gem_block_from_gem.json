@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compmod:gem"
+    }
+  },
+  "result": {
+    "item": "compmod:gem_block"
+  }
+}

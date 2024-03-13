@@ -1,0 +1,13 @@
+{
+  "item.compmod.elixir": "Elixir",
+  "item.compmod.elixir_clump": "Elixir Clump",
+  "item.compmod.gold": "Gold",
+  "item.compmod.gem": "Gem",
+  "block.compmod.gem_block": "Block of Gems",
+  "block.compmod.wall_block": "Wall",
+  "block.compmod.condensed_elixir_block": "Condensed Elixir",
+  "block.compmod.metal_detector": "Goody Finder",
+  "block.compmod.elixir_collector": "Elixir Collector",
+
+  "creativetab.compmod_tab": "Mod Tab"
+}
