@@ -1,4 +1,4 @@
-package net.eganmakela.compmod.block.entity;
+package net.eganmakela.compmod.entity;
 
 import net.eganmakela.compmod.CompMod;
 import net.eganmakela.compmod.block.ModBlocks;

@@ -2,7 +2,9 @@ package net.eganmakela.compmod.Item;
 
 import net.eganmakela.compmod.CompMod;
 import net.eganmakela.compmod.Item.custom.MetalDetectorItem;
+import net.eganmakela.compmod.entity.ModEntities;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,6 +25,8 @@ public static final RegistryObject<Item> GEM = ITEMS.register("gem",
         ()->new Item(new Item.Properties()));
 public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
         ()->new MetalDetectorItem(new Item.Properties().durability(50)));
+    public static final RegistryObject<Item> WIZARD_SPANW_EGG = ITEMS.register("wizard_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.WIZARD, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
     public static void register(IEventBus eventBus)
     {

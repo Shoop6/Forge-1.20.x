@@ -1,7 +1,7 @@
 package net.eganmakela.compmod.block.custom;
 
-import net.eganmakela.compmod.block.entity.ElixirCollectorBlockEntity;
-import net.eganmakela.compmod.block.entity.ModBlockEntities;
+import net.eganmakela.compmod.entity.ElixirCollectorBlockEntity;
+import net.eganmakela.compmod.entity.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;

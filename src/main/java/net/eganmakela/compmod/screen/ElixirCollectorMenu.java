@@ -1,7 +1,7 @@
 package net.eganmakela.compmod.screen;
 
 import net.eganmakela.compmod.block.ModBlocks;
-import net.eganmakela.compmod.block.entity.ElixirCollectorBlockEntity;
+import net.eganmakela.compmod.entity.ElixirCollectorBlockEntity;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
@@ -11,7 +11,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.SlotItemHandler;
-import org.jetbrains.annotations.Nullable;
 
 public class ElixirCollectorMenu extends AbstractContainerMenu {
 

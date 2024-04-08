@@ -1,7 +1,6 @@
-package net.eganmakela.compmod.block.entity;
+package net.eganmakela.compmod.entity;
 
 import net.eganmakela.compmod.Item.ModItems;
-import net.eganmakela.compmod.block.ModBlocks;
 import net.eganmakela.compmod.screen.ElixirCollectorMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -18,7 +17,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
